@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "targethud",
+  "version": "1.0.0",
+  "name": "Target HUD",
+  "description": "Shows the closest player's username, health bar and armor durability at the top of your screen. Client-side.",
+  "authors": ["Munky"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.targethud.TargetHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
